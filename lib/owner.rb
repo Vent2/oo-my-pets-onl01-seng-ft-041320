@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :pets
+  # attr_accessor :pets
   attr_reader :name, :species
 
   @@all = []
@@ -8,7 +8,7 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
-    @pets = {:cats => [], :dogs => []}
+    # @pets = {:cats => [], :dogs => []}
   end
 
   def say_species
